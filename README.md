@@ -4,7 +4,7 @@
 
 My first React project which took considerably longer than I'd like to admit :upside_down_face:
 
-[![ReactJS Todo List](https://github.com/kierancodes/reactjs-todo-list/screenshot.png)](https://woodward.codes/todo)
+[![ReactJS Todo List](https://github.com/kierancodes/reactjs-todo-list/master/screenshot.png)](https://woodward.codes/todo)
 
 ## App Demo
 
