@@ -5,6 +5,7 @@ class AddItem extends React.Component {
     return (
       <input
         type="text"
+				placeholder="Type something..."
 	onChange={this.props.handleChange}
 	onKeyPress={this.props.keyDown}
 	value={this.props.inputText} />
