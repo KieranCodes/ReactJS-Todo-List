@@ -24,3 +24,4 @@ npm start
 * [ ] Add saving feature
 * [ ] Animate adding and deleting items1
 * [ ] Click items to ~~strikethrough~~
+* [ ] Deploy on my server
