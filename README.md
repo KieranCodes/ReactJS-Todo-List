@@ -22,6 +22,6 @@ npm start
 ## Todoception
 
 * [ ] Add saving feature
-* [ ] Animate adding and deleting items1
-* [ ] Click items to ~~strikethrough~~
+* [x] Animate adding and deleting items
+* [x] Click items to ~~strikethrough~~
 * [ ] Deploy on my server
