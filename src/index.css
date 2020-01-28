@@ -1,97 +1,97 @@
 ::-webkit-scrollbar {
-	width: 10px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-	background: #1b1b24;
+  background: #1b1b24;
 }
 ::-webkit-scrollbar-thumb {
-	background: #303045;
+  background: #303045;
 }
 * {
-	font-family: "Muli", sans-serif;
-	font-size: 32px;
-	margin: 0;
-	color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 32px;
+  margin: 0;
+  color: white;
 }
 body {
-	background: #1b1b24;
-	padding: 20px;
+  background: #1b1b24;
+  padding: 20px;
 }
 #container {
   max-width: 500px;
-	margin: 0 auto;
+  margin: 0 auto;
 }
 input {
-	padding: 20px 30px;
-	border: none;
-	background: transparent;
-	background: #aaa1;
-	border-radius: 20px;
-	width: calc(100% - 60px);
+  padding: 20px 30px;
+  border: none;
+  background: transparent;
+  background: #aaa1;
+  border-radius: 20px;
+  width: calc(100% - 60px);
 }
 input:focus {
-	outline: none;
+  outline: none;
 }
 li {
-	list-style-type: none;
-	padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 li {
-	word-break: break-all;
-	padding: 20px 60px 20px 30px;
-	background: #1113;
-	margin: 30px 0;
-	border-radius: 10px;
+  word-break: break-all;
+  padding: 20px 60px 20px 30px;
+  background: #1113;
+  margin: 30px 0;
+  border-radius: 10px;
   -webkit-box-shadow: 0 10px 6px -6px #111;
   -moz-box-shadow: 0 10px 6px -6px #111;
   box-shadow: 0 10px 6px -6px #111;
-	position: relative;
-	cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
 li span {
-	position: absolute;
-	top: calc(50% - 25px);
-	right: 10px;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-	line-height: 50px;
-	color: #888;
-	font-weight: bold;
-	background-color: #6661;
-	border-radius: 100%;
-	font-size: 22px;
-	font-weight: bold;
-	transition: color 0.5s ease;
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #888;
+  font-weight: bold;
+  background-color: #6661;
+  border-radius: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  transition: color 0.5s ease;
 }
 li span:hover {
-	color: #c00;
+  color: #c00;
 }
 .animation-enter {
-	max-height: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-	margin: 0;
-	transform: scaley(0);
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  transform: scaley(0);
 }
 .animation-enter-active {
-	max-height: 40px;
-	transition: all 250ms;
-	padding: 20px 60px 20px 30px;
-	margin: 30px 0;
-	transform: none;
+  max-height: 40px;
+  transition: all 250ms;
+  padding: 20px 60px 20px 30px;
+  margin: 30px 0;
+  transform: none;
 }
 .animation-exit {
-	max-height: 40px;
-	padding: 20px 60px 20px 30px;
-	margin: 30px 0;
-	transform: none;
+  max-height: 40px;
+  padding: 20px 60px 20px 30px;
+  margin: 30px 0;
+  transform: none;
 }
 .animation-exit-active {
-	max-height: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-	margin: 0;
-	transform: scaley(0);
-	transition: all 250ms;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  transform: scaley(0);
+  transition: all 250ms;
 }
